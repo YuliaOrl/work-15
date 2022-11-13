@@ -90,7 +90,7 @@ gradle clean test -Denv=remote
 <img title="Test Results in Alure" src="images/screenshots/allureReportTests.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом прохождения тестов.
 
@@ -98,7 +98,7 @@ gradle clean test -Denv=remote
 <img width="70%" title="Telegram Notifications" src="images/screenshots/notificationTelegram.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео запуска одного из тестов в Selenoid
+## <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео запуска одного из тестов в Selenoid
 
 Для каждого теста выполняется запись видео. Ниже представлен пример видео прохождения теста.
 <p align="center">
