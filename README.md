@@ -79,8 +79,8 @@ gradle clean test -Denv=remote
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Allure-отчет
+<a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/10/allure/">**Основная страница отчета**</a>
 ### Overview
-
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/allureReportMain.png">
 </p>
