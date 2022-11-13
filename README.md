@@ -73,6 +73,7 @@ gradle clean test -Denv=remote
 * <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По-умолчанию - <code>1920x1080</code>.
 
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
+<a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/">**Jenkins job**</a>
 <p align="center">
 <img title="Jenkins Build" src="images/screenshots/jenkinsBuild.png">
 </p>
