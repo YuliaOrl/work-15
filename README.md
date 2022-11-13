@@ -91,6 +91,14 @@ gradle clean test -Denv=remote
 <img title="Test Results in Alure" src="images/screenshots/allureReportTests.png">
 </p>
 
+### Графики
+<p align="center">
+<img title="Allure Overview" src="images/screenshots/allureReportGraphs1.png">
+</p>
+<p align="center">
+<img title="Allure Overview" src="images/screenshots/allureReportGraphs2.png">
+</p>
+
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом прохождения тестов.
