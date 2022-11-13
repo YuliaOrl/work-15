@@ -24,7 +24,7 @@
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
 </p>
 
-Параметризированные автотесты написаны на <code>Java</code> с использованием <code>Gradle</code> и <code>JUnit 5</code>.
+Параметризованные автотесты написаны на <code>Java</code> с использованием <code>Gradle</code> и <code>JUnit 5</code>.
 Для UI-тестов используется фреймворк [Selenide](https://selenide.org/).
 Тесты можно запускать локально или удаленно с помощью [Selenoid](https://aerokube.com/selenoid/).
 Сборка в <code>Jenkins</code> реализована с формированием Allure-отчета и отправкой уведомления с результатами тестирования в <code>Telegram</code> после завершения прохождения тестов.
@@ -84,7 +84,7 @@ gradle clean test -Denv=remote
 <img title="Allure Overview" src="images/screenshots/allureReportMain.png">
 </p>
 
-### Результат прохождения параметризированных тестов с описанием  и шагами выполнения
+### Результат прохождения параметризованных тестов с описанием  и шагами выполнения
 
 <p align="center">
 <img title="Test Results in Alure" src="images/screenshots/allureReportTests.png">
@@ -92,7 +92,7 @@ gradle clean test -Denv=remote
 
 ### <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
-После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом о прохождении тестов.
+После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом прохождения тестов.
 
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="images/screenshots/notificationTelegram.png">
