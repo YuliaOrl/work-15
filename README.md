@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования главной страницы Pobeda.aero
+# Проект по автоматизации тестирования главной страницы сайта Pobeda.aero
 
 ## :pushpin: Содержание:
 
@@ -34,7 +34,7 @@ Allure-отчет включает в себя:
 * скриншот страницы в браузере в момент завершения автотеста;
 * Page Source;
 * логи браузерной консоли;
-* видео выполнения UI-теста.
+* видео выполнения UI-тестов.
 
 ## :running_woman: Варианты запуска тестов
 
@@ -84,7 +84,7 @@ gradle clean test -Denv=remote
 <img title="Allure Overview" src="images/screenshots/allureReportMain.png">
 </p>
 
-### Результат выполнения теста
+### Результат прохождения параметризированных тестов с описанием  и шагами выполнения
 
 <p align="center">
 <img title="Test Results in Alure" src="images/screenshots/allureReportTests.png">
@@ -95,12 +95,12 @@ gradle clean test -Denv=remote
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом о прохождении тестов.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="images/screenshots/notificationExample.png">
+<img width="70%" title="Telegram Notifications" src="images/screenshots/notificationTelegram.png">
 </p>
 
 ### <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео запуска одного из тестов в Selenoid
 
-Для каждого теста выполняется запись видео. Одно из таких видео представлено ниже.
+Для каждого теста выполняется запись видео. Ниже представлен пример видео прохождения теста.
 <p align="center">
   <img title="Selenoid Video" src="images/gif/videoExample.gif">
 </p>
