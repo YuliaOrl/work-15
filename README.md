@@ -92,7 +92,7 @@ gradle clean test -Denv=remote
 
 ### <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
-После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом о прохождении тестов.
+После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом результатов прохождения тестов.
 
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="images/screenshots/notificationTelegram.png">
