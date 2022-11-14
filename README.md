@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования главной страницы сайта Pobeda.aero
 
-## :green_book: Содержание:
+## :pushpin: Содержание:
 
 - [Использованный стек технологий](#computer-использованный-стек-технологий)
 - [Варианты запуска тестов](#running_woman-варианты-запуска-тестов)
@@ -73,14 +73,13 @@ gradle clean test -Denv=remote
 * <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По-умолчанию - <code>1920x1080</code>.
 
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
-<a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/">**Jenkins job**</a>
 <p align="center">
 <img title="Jenkins Build" src="images/screenshots/jenkinsBuild.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Allure-отчет
-<a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/10/allure/">**Основная страница отчета**</a>
 ### Overview
+
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/allureReportMain.png">
 </p>
@@ -91,23 +90,15 @@ gradle clean test -Denv=remote
 <img title="Test Results in Alure" src="images/screenshots/allureReportTests.png">
 </p>
 
-### Графики
-<p align="center">
-<img title="Allure Overview" src="images/screenshots/allureReportGraphs1.png">
-</p>
-<p align="center">
-<img title="Allure Overview" src="images/screenshots/allureReportGraphs2.png">
-</p>
+### <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
-## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомление в Telegram с использованием бота
-
-После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом прохождения тестов.
+После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом о прохождении тестов.
 
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="images/screenshots/notificationTelegram.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео запуска одного из тестов в Selenoid
+### <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео запуска одного из тестов в Selenoid
 
 Для каждого теста выполняется запись видео. Ниже представлен пример видео прохождения теста.
 <p align="center">

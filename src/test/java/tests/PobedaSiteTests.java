@@ -15,6 +15,7 @@ import static io.qameta.allure.Allure.step;
 
 public class PobedaSiteTests extends TestBase {
 
+
     @DisplayName("Проверка перехода в разделы сайта.")
     @ValueSource(strings = {"Ручная кладь", "Багаж", "Выбор места", "Страхование"})
     @ParameterizedTest(name = "Выполняется переход в раздел \"{0}\"")
