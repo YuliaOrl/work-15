@@ -1,7 +1,11 @@
 package tests;
 
 import com.codeborne.selenide.CollectionCondition;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 
@@ -13,8 +17,12 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
+@Owner("yuliaorlova")
+@Feature("Issues")
 public class PobedaSiteTests extends TestBase {
 
+
+    @Tags({@Tag("web"), @Tag("critical")})
     @DisplayName("Проверка перехода в разделы сайта.")
     @ValueSource(strings = {"Ручная кладь", "Багаж", "Выбор места", "Страхование"})
     @ParameterizedTest(name = "Выполняется переход в раздел \"{0}\"")
@@ -37,6 +45,7 @@ public class PobedaSiteTests extends TestBase {
         );
     }
 
+    @Tags({@Tag("web"), @Tag("critical")})
     @DisplayName("Проверка наличия разделов сайта.")
     @MethodSource
     @ParameterizedTest(name = "Для локали {0} отображаются разделы {1}")
@@ -61,6 +70,7 @@ public class PobedaSiteTests extends TestBase {
         );
     }
 
+    @Tags({@Tag("web"), @Tag("critical")})
     @DisplayName("Проверка наличия кнопок меню сайта.")
     @MethodSource
     @ParameterizedTest(name = "Для локали {0} отображаются кнопки меню {1}")
@@ -85,6 +95,7 @@ public class PobedaSiteTests extends TestBase {
             "способ оплаты, Способы оплаты"
     })
 
+    @Tags({@Tag("web"), @Tag("critical")})
     @DisplayName("Проверка работы поиска.")
     @ParameterizedTest(name = "Результаты поиска содержат текст \"{1}\" для запроса \"{0}\"")
     void sitePobedaSearchTest(String testData, String expectedResult) {
@@ -101,6 +112,7 @@ public class PobedaSiteTests extends TestBase {
     }
 
 
+    @Tags({@Tag("web"), @Tag("critical")})
     @DisplayName("Проверка нотификации обязательности заполнение поля ввода Email для подписки.")
     @EnumSource(Lang.class)
     @ParameterizedTest(name = "Для локали {0} проверяется заполнение Email")
