@@ -30,7 +30,6 @@ public class PobedaSiteTests extends TestBase {
         });
     }
 
-
     static Stream<Arguments> pobedaSiteMenuTest() {
         return Stream.of(
                 Arguments.of("English", List.of("Hand baggage", "Baggage", "Seats", "Insurance", "Hotels", "Auto", "Transfer", "Excursions")),
