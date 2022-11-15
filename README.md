@@ -75,25 +75,26 @@ gradle clean test -Denv=remote
 * <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По-умолчанию - <code>1920x1080</code>.
 
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
-<a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/">**Jenkins job**</a>
+### <a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/">*Jenkins job*</a>
+
 <p align="center">
 <img title="Jenkins Build" src="images/screenshots/jenkinsBuild.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Allure-отчет
-<a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/10/allure/">**Основная страница отчета**</a>
-### Overview
+### <a target="_blank" href="https://jenkins.autotests.cloud/job/Auto%20testing%20main%20page%20Pobeda.aero/10/allure/">*Overview*</a>
+
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/allureReportMain.png">
 </p>
 
-### Результат прохождения параметризованных тестов с описанием  и шагами выполнения
+### *Результат прохождения параметризованных тестов с описанием  и шагами выполнения*
 
 <p align="center">
 <img title="Test Results in Alure" src="images/screenshots/allureReportTests.png">
 </p>
 
-### Графики
+### *Графики*
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/allureReportGraphs1.png">
 </p>
