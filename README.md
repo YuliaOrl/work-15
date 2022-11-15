@@ -99,6 +99,20 @@ gradle clean test -Denv=remote
 <img title="Allure Overview" src="images/screenshots/allureReportGraphs2.png">
 </p>
 
+## <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https://allure.autotests.cloud/project/1669/dashboards">*Allure TestOps*</a>
+
+### *Allure TestOps Dashboard*
+
+<p align="center">  
+<img title="Allure TestOps Dashboard" src="images/Allure_Test_Ops_Dashboard.png">  
+</p>  
+
+### *Тест кейсы*
+
+<p align="center">  
+<img title="Allure TestOps Tests" src="images/Allure_TestOps_Test_Cases.png">  
+</p>
+
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомление в Telegram с использованием бота
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически отправляет сообщение с отчетом прохождения тестов.
