@@ -6,7 +6,7 @@
 - [Варианты запуска тестов](#running_woman-варианты-запуска-тестов)
 - [Сборка в Jenkins](#-сборка-в-jenkins)
 - [Allure-отчет](#-allure-отчет)
-- [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
+- [Интеграция с Allure TestOps](#-интеграция-с)
 - [Уведомление в Telegram с использованием бота](#-уведомление-в-telegram-с-использованием-бота)
 - [Видео запуска одного из тестов в Selenoid](#-видео-запуска-одного-из-тестов-в-selenoid)
 
@@ -15,6 +15,7 @@
 <p align="center">
 <img width="6%" title="Java" src="images/logo/Java.svg">
 <img width="6%" title="Allure Report" src="images/logo/Allure_Report.svg">
+<img width="6%" title="Allure Report" src="images/logo/AllureTestOps.svg">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
 <img width="6%" title="Selenide" src="images/logo/Selenide.svg">
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
@@ -100,18 +101,18 @@ gradle clean test -Denv=remote
 <img title="Allure Overview" src="images/screenshots/allureReportGraphs2.png">
 </p>
 
-## <img src="images/AllureTestOps.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https://allure.autotests.cloud/project/1669/dashboards">*Allure TestOps*</a>
+## <img src="images/logo/AllureTestOps.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https://allure.autotests.cloud/project/1669/dashboards">*Allure TestOps*</a>
 
 ### *Allure TestOps Dashboard*
 
 <p align="center">  
-<img title="Allure TestOps Dashboard" src="images/Allure_Test_Ops_Dashboard.png">  
+<img title="Allure TestOps Dashboard" src="images/screenshots/Allure_Test_Ops_Dashboard.png">  
 </p>  
 
 ### *Тест кейсы*
 
 <p align="center">  
-<img title="Allure TestOps Tests" src="images/Allure_TestOps_Test_Cases.png">  
+<img title="Allure TestOps Tests" src="images/screenshots/Allure_TestOps_Test_Cases.png">  
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомление в Telegram с использованием бота
