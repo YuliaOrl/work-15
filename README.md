@@ -6,7 +6,7 @@
 - [Варианты запуска тестов](#running_woman-варианты-запуска-тестов)
 - [Сборка в Jenkins](#-сборка-в-jenkins)
 - [Allure-отчет](#-allure-отчет)
-- [Интеграция с Allure TestOps](#-интеграция-с)
+- [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
 - [Уведомление в Telegram с использованием бота](#-уведомление-в-telegram-с-использованием-бота)
 - [Видео запуска одного из тестов в Selenoid](#-видео-запуска-одного-из-тестов-в-selenoid)
 
@@ -101,9 +101,8 @@ gradle clean test -Denv=remote
 <img title="Allure Overview" src="images/screenshots/allureReportGraphs2.png">
 </p>
 
-## <img src="images/logo/AllureTestOps.svg" width="25" height="25"  alt="Allure"/></a>*Интеграция с* <a target="_blank" href="https://allure.autotests.cloud/project/1669/dashboards">*Allure TestOps*</a>
-
-### *Allure TestOps Dashboard*
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/AllureTestOps.svg"> Интеграция с Allure TestOps
+### *Allure TestOps* <a target="_blank" href="https://allure.autotests.cloud/project/1669/dashboards">*Dashboard*</a>
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/screenshots/Allure_Test_Ops_Dashboard.png">  
