@@ -106,13 +106,13 @@ gradle clean test -Denv=remote
 ### *Allure TestOps* <a target="_blank" href="https://allure.autotests.cloud/project/1669/dashboards">*Dashboard*</a>
 
 <p align="center">  
-<img title="Allure TestOps Dashboard" src="images/screenshots/Allure_Test_Ops_Dashboard.png">  
+<img title="Allure TestOps Dashboard" src="images/screenshots/AllureTestOpsDashboard.png">  
 </p>  
 
 ### *Тест кейсы*
 
 <p align="center">  
-<img title="Allure TestOps Tests" src="images/screenshots/Allure_TestOps_Test_Cases.png">  
+<img title="Allure TestOps Tests" src="images/screenshots/AllureTestOpsTestCases.png">  
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомление в Telegram с использованием бота
